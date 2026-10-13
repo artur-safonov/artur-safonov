@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-10-14",
+  "login": "artur-safonov",
+  "totals": {
+    "commits": 535,
+    "pullRequests": 53,
+    "issues": 11,
+    "contributions": 707,
+    "ownRepos": 51,
+    "contributedTo": 11,
+    "yearContributions": 315
+  },
+  "perYear": {
+    "2017": 13,
+    "2018": 0,
+    "2019": 19,
+    "2020": 7,
+    "2021": 71,
+    "2022": 5,
+    "2023": 96,
+    "2024": 77,
+    "2025": 104,
+    "2026": 315
+  },
+  "languages": [
+    {
+      "name": "Python",
+      "size": 1612274,
+      "color": "#3572A5"
+    },
+    {
+      "name": "HTML",
+      "size": 1186655,
+      "color": "#e34c26"
+    },
+    {
+      "name": "TypeScript",
+      "size": 962803,
+      "color": "#3178c6"
+    },
+    {
+      "name": "Java",
+      "size": 618107,
+      "color": "#b07219"
+    },
+    {
+      "name": "JavaScript",
+      "size": 408012,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "CSS",
+      "size": 236732,
+      "color": "#663399"
+    },
+    {
+      "name": "C#",
+      "size": 182012,
+      "color": "#7355dd"
+    },
+    {
+      "name": "C++",
+      "size": 64806,
+      "color": "#f34b7d"
+    },
+    {
+      "name": "Liquid",
+      "size": 45207,
+      "color": "#67b8de"
+    },
+    {
+      "name": "PowerShell",
+      "size": 17676,
+      "color": "#012456"
+    },
+    {
+      "name": "QML",
+      "size": 16369,
+      "color": "#44a51c"
+    },
+    {
+      "name": "PHP",
+      "size": 9808,
+      "color": "#4F5D95"
+    },
+    {
+      "name": "C",
+      "size": 7763,
+      "color": "#555555"
+    },
+    {
+      "name": "CMake",
+      "size": 2914,
+      "color": "#DA3434"
+    },
+    {
+      "name": "Shell",
+      "size": 1558,
+      "color": "#89e051"
+    },
+    {
+      "name": "Dockerfile",
+      "size": 845,
+      "color": "#384d54"
+    },
+    {
+      "name": "Standard ML",
+      "size": 432,
+      "color": "#dc566d"
+    }
+  ],
+  "pinned": [
+    {
+      "name": "yeelight-bridge",
+      "lang": "QML",
+      "color": "#44a51c",
+      "desc": "SignalRGB addon that syncs Yeelight smart bulbs with your PC RGB lighting"
+    },
+    {
+      "name": "yeelight-bridge-server",
+      "lang": "JavaScript",
+      "color": "#f1e05a",
+      "desc": "Local Node.js bridge: LAN bulb control, device persistence, auto-reconnect, Windows service"
+    }
+  ]
+}
