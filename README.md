@@ -7,6 +7,11 @@
   If I do something twice, the third time it's a script. The fourth time it's an agent.
 </p>
 
+<p align="center">
+  <a href="https://artur-safonov.github.io"><img src="https://img.shields.io/badge/Portfolio-artur--safonov.github.io-bca4ff?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=1a1b27" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/artur-safonov1"><img src="https://img.shields.io/badge/LinkedIn-artur--safonov1-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn" /></a>
+</p>
+
 ### 🧭 What I work on
 
 | | Direction | What it looks like |
