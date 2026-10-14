@@ -35,8 +35,16 @@
 ### 📌 Pinned
 
 <p align="center">
+  <a href="https://github.com/artur-safonov/routine-spotify-bridge"><img src="./assets/pin-routine-spotify-bridge.svg" alt="routine-spotify-bridge" width="49%" /></a>
+  <a href="https://github.com/artur-safonov/ESPHome-Guition-ESP32-S3-4848S040"><img src="./assets/pin-ESPHome-Guition-ESP32-S3-4848S040.svg" alt="ESPHome-Guition-ESP32-S3-4848S040" width="49%" /></a>
+</p>
+<p align="center">
   <a href="https://github.com/artur-safonov/yeelight-bridge"><img src="./assets/pin-yeelight-bridge.svg" alt="yeelight-bridge" width="49%" /></a>
   <a href="https://github.com/artur-safonov/yeelight-bridge-server"><img src="./assets/pin-yeelight-bridge-server.svg" alt="yeelight-bridge-server" width="49%" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/artur-safonov/govee-music-bridge"><img src="./assets/pin-govee-music-bridge.svg" alt="govee-music-bridge" width="49%" /></a>
+  <a href="https://github.com/artur-safonov/ComfyUI-Character-Tag-Tools"><img src="./assets/pin-ComfyUI-Character-Tag-Tools.svg" alt="ComfyUI-Character-Tag-Tools" width="49%" /></a>
 </p>
 
 ### 🐍 Contributions

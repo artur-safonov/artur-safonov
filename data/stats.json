@@ -111,6 +111,18 @@
   ],
   "pinned": [
     {
+      "name": "routine-spotify-bridge",
+      "lang": "Python",
+      "color": "#3572A5",
+      "desc": "Home Assistant app: Spotify search, library, playback and Connect control from ESPHome displays"
+    },
+    {
+      "name": "ESPHome-Guition-ESP32-S3-4848S040",
+      "lang": "C++",
+      "color": "#f34b7d",
+      "desc": "ESP32-S3 Home Assistant display with Routine Controller UI: lights, devices and music pages"
+    },
+    {
       "name": "yeelight-bridge",
       "lang": "QML",
       "color": "#44a51c",
@@ -121,6 +133,18 @@
       "lang": "JavaScript",
       "color": "#f1e05a",
       "desc": "Local Node.js bridge: LAN bulb control, device persistence, auto-reconnect, Windows service"
+    },
+    {
+      "name": "govee-music-bridge",
+      "lang": "Python",
+      "color": "#3572A5",
+      "desc": "Home Assistant add-on keeping Govee H6076 lamps in beat-reactive music mode over Bluetooth LE"
+    },
+    {
+      "name": "ComfyUI-Character-Tag-Tools",
+      "lang": "Python",
+      "color": "#3572A5",
+      "desc": "ComfyUI nodes for character identity tags, image and caption downloads, Anima diagnostics"
     }
   ]
 }
