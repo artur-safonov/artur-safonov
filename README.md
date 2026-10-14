@@ -54,6 +54,12 @@
   <a href="https://github.com/artur-safonov/ComfyUI-Character-Tag-Tools"><img src="./assets/pin-ComfyUI-Character-Tag-Tools.svg" alt="ComfyUI-Character-Tag-Tools" width="49%" /></a>
 </p>
 
+### 🤗 Hugging Face
+
+<p align="center">
+  <a href="https://huggingface.co/BattleGhost"><img src="./assets/huggingface.svg" alt="Hugging Face models by BattleGhost: downloads and likes, updated daily" width="100%" /></a>
+</p>
+
 ### 🐍 Contributions
 
 <p align="center">
