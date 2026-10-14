@@ -14,6 +14,22 @@
   <a href="https://huggingface.co/BattleGhost"><img src="https://img.shields.io/badge/Hugging_Face-BattleGhost-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=1a1b27" alt="Hugging Face" /></a>
 </p>
 
+### 🌐 Out in the world
+
+Small storefronts and useful tools, each with a place on the web.
+
+<p align="center">
+  <a href="https://dayvolt.pages.dev/"><img src="./assets/site-dayvolt.svg" alt="DayVolt: Rozetka, Prom, Epicentr and Allo, connected through one storefront hub." width="100%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://pawtidyshop.com/"><img src="./assets/site-pawtidy.svg" alt="PawTidy: A Shopify store with dog accessories for walks, play and everyday care." width="100%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.rustboom.gg/"><img src="./assets/site-rustboom.svg" alt="RustBoom: Raid-cost calculator and vending tools for players of Rust." width="100%" /></a>
+</p>
+
 ### 🧭 What I work on
 
 | | Direction | What it looks like |
