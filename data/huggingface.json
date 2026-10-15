@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "author": "BattleGhost",
   "totals": {
-    "allTime": 43185,
-    "month": 41091,
+    "allTime": 43217,
+    "month": 39514,
     "likes": 4
   },
   "models": [
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
-      "downloads": 40248,
-      "allTime": 42028,
+      "downloads": 38674,
+      "allTime": 42056,
       "likes": 4,
       "pipeline": "text-generation",
       "library": "llama.cpp",
@@ -37,8 +37,8 @@
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
-      "downloads": 843,
-      "allTime": 1157,
+      "downloads": 840,
+      "allTime": 1161,
       "likes": 0,
       "pipeline": "text-generation",
       "library": "llama.cpp",
