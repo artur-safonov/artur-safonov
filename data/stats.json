@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-16",
   "login": "artur-safonov",
   "totals": {
-    "commits": 535,
+    "commits": 558,
     "pullRequests": 53,
     "issues": 11,
-    "contributions": 707,
-    "ownRepos": 51,
+    "contributions": 735,
+    "ownRepos": 58,
     "contributedTo": 11,
-    "yearContributions": 315
+    "yearContributions": 343
   },
   "perYear": {
     "2017": 13,
@@ -20,17 +20,17 @@
     "2023": 96,
     "2024": 77,
     "2025": 104,
-    "2026": 315
+    "2026": 343
   },
   "languages": [
     {
       "name": "Python",
-      "size": 1612274,
+      "size": 1850226,
       "color": "#3572A5"
     },
     {
       "name": "HTML",
-      "size": 1186655,
+      "size": 1217923,
       "color": "#e34c26"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "name": "JavaScript",
-      "size": 408012,
+      "size": 472614,
       "color": "#f1e05a"
     },
     {
@@ -89,18 +89,18 @@
       "color": "#555555"
     },
     {
+      "name": "Shell",
+      "size": 3477,
+      "color": "#89e051"
+    },
+    {
       "name": "CMake",
       "size": 2914,
       "color": "#DA3434"
     },
     {
-      "name": "Shell",
-      "size": 1558,
-      "color": "#89e051"
-    },
-    {
       "name": "Dockerfile",
-      "size": 845,
+      "size": 1943,
       "color": "#384d54"
     },
     {

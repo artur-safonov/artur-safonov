@@ -27,6 +27,14 @@ if (process.argv.includes('--fetch')) {
     totals: { commits: [...commits.values()].reduce((a, b) => a + b, 0), pullRequests: me.pullRequests.totalCount, issues: me.issues.totalCount,
       contributions: Object.values(perYear).reduce((a, b) => a + b, 0), ownRepos: own.length, contributedTo: others.size, yearContributions: perYear[thisYear] || 0 },
     perYear, languages: Object.entries(langs).sort((a, b) => b[1].size - a[1].size).map(([name, v]) => ({ name, ...v })) };
+  const previous = JSON.parse(readFileSync(dataPath, 'utf8'));
+  const same = JSON.stringify(previous.totals) === JSON.stringify(data.totals)
+    && JSON.stringify(previous.perYear) === JSON.stringify(data.perYear)
+    && JSON.stringify(previous.languages) === JSON.stringify(data.languages);
+  if (same) {
+    console.log('stats unchanged', data.totals.yearContributions);
+    process.exit(0);
+  }
   writeFileSync(dataPath, JSON.stringify(data, null, 2) + '\n');
 }
 
