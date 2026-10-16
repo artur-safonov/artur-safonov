@@ -20,7 +20,12 @@ jobs:
       - name: Refresh profile stats
         env:
           GH_TOKEN: ${{ secrets.STATS_TOKEN }}
-        run: node scripts/generate.mjs --fetch
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "STATS_TOKEN is not set, so private contribution stats were left unchanged."
+            exit 0
+          fi
+          node scripts/generate.mjs --fetch
       - name: Commit when the card changes
         run: |
           git config user.name "github-actions[bot]"
