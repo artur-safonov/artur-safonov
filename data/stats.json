@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-21",
   "login": "artur-safonov",
   "totals": {
-    "commits": 573,
-    "pullRequests": 53,
+    "commits": 593,
+    "pullRequests": 54,
     "issues": 11,
-    "contributions": 751,
-    "ownRepos": 59,
+    "contributions": 775,
+    "ownRepos": 62,
     "contributedTo": 11,
-    "yearContributions": 359
+    "yearContributions": 383
   },
   "perYear": {
     "2017": 13,
@@ -20,17 +20,17 @@
     "2023": 96,
     "2024": 77,
     "2025": 104,
-    "2026": 359
+    "2026": 383
   },
   "languages": [
     {
       "name": "Python",
-      "size": 1877264,
+      "size": 1932902,
       "color": "#3572A5"
     },
     {
       "name": "HTML",
-      "size": 1219040,
+      "size": 1267457,
       "color": "#e34c26"
     },
     {
@@ -45,12 +45,12 @@
     },
     {
       "name": "JavaScript",
-      "size": 518056,
+      "size": 576493,
       "color": "#f1e05a"
     },
     {
       "name": "CSS",
-      "size": 236732,
+      "size": 243546,
       "color": "#663399"
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "name": "Liquid",
-      "size": 45207,
+      "size": 45614,
       "color": "#67b8de"
     },
     {
