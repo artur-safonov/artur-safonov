@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "author": "BattleGhost",
   "totals": {
-    "allTime": 47368,
-    "month": 42696,
+    "allTime": 55938,
+    "month": 51246,
     "likes": 6
   },
   "models": [
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
-      "downloads": 41845,
-      "allTime": 46167,
+      "downloads": 50312,
+      "allTime": 54651,
       "likes": 6,
       "pipeline": "text-generation",
       "library": "llama.cpp",
@@ -37,7 +37,7 @@
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
-      "downloads": 851,
+      "downloads": 848,
       "allTime": 1201,
       "likes": 0,
       "pipeline": "text-generation",
@@ -59,6 +59,34 @@
         "conversational"
       ],
       "updated": "2026-08-30"
+    },
+    {
+      "id": "BattleGhost/MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
+      "name": "MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
+      "downloads": 86,
+      "allTime": 86,
+      "likes": 0,
+      "pipeline": "",
+      "library": "",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "mimo2",
+        "mixture-of-experts",
+        "multimodal",
+        "uncensored",
+        "experimental",
+        "en",
+        "zh",
+        "base_model:dealignai/MiMo-V2.6-Flash-RL-UNCENSORED",
+        "base_model:quantized:dealignai/MiMo-V2.6-Flash-RL-UNCENSORED",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "updated": "2026-10-20"
     }
   ]
 }
