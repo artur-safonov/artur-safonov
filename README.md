@@ -55,6 +55,14 @@ Small storefronts and useful tools, each with a place on the web.
   <img src="./assets/stats.svg" alt="Commits, pull requests, contributions per year and languages across all repositories" width="100%" />
 </p>
 
+### 🧠 AI Rhythm
+
+Codex is the harness; models and tools do the work. A numerical view of my agent workflows.
+
+<p align="center">
+  <a href="https://ai.artursafonov.me/"><img src="./assets/ai-rhythm.svg" alt="AI Rhythm: processed tokens, tool calls, daily activity and latest weekly quota readings. Open AI Field for interactive charts." width="100%" /></a>
+</p>
+
 ### 📌 Pinned
 
 <p align="center">
