@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "author": "BattleGhost",
   "totals": {
-    "allTime": 56453,
-    "month": 51070,
-    "likes": 6
+    "allTime": 59669,
+    "month": 54159,
+    "likes": 7
   },
   "models": [
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
-      "downloads": 50715,
-      "allTime": 55149,
-      "likes": 6,
+      "downloads": 50798,
+      "allTime": 55247,
+      "likes": 7,
       "pipeline": "text-generation",
       "library": "llama.cpp",
       "tags": [
@@ -35,36 +35,10 @@
       "updated": "2026-08-30"
     },
     {
-      "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
-      "name": "Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
-      "downloads": 253,
-      "allTime": 1202,
-      "likes": 0,
-      "pipeline": "text-generation",
-      "library": "llama.cpp",
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "qwen",
-        "qwen4_exp",
-        "bf16",
-        "uncensored",
-        "abliterated",
-        "text-generation",
-        "base_model:dealignai/Qwen3.8-Flash-Next-UNCENSORED-FP8",
-        "base_model:quantized:dealignai/Qwen3.8-Flash-Next-UNCENSORED-FP8",
-        "license:other",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "updated": "2026-08-30"
-    },
-    {
       "id": "BattleGhost/MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
       "name": "MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
-      "downloads": 102,
-      "allTime": 102,
+      "downloads": 3215,
+      "allTime": 3215,
       "likes": 0,
       "pipeline": "",
       "library": "",
@@ -87,6 +61,32 @@
         "conversational"
       ],
       "updated": "2026-10-20"
+    },
+    {
+      "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
+      "name": "Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
+      "downloads": 146,
+      "allTime": 1207,
+      "likes": 0,
+      "pipeline": "text-generation",
+      "library": "llama.cpp",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "qwen",
+        "qwen4_exp",
+        "bf16",
+        "uncensored",
+        "abliterated",
+        "text-generation",
+        "base_model:dealignai/Qwen3.8-Flash-Next-UNCENSORED-FP8",
+        "base_model:quantized:dealignai/Qwen3.8-Flash-Next-UNCENSORED-FP8",
+        "license:other",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "updated": "2026-08-30"
     }
   ]
 }
