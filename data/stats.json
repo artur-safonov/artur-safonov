@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-25",
   "login": "artur-safonov",
   "totals": {
-    "commits": 593,
+    "commits": 607,
     "pullRequests": 54,
     "issues": 11,
-    "contributions": 775,
-    "ownRepos": 62,
+    "contributions": 799,
+    "ownRepos": 72,
     "contributedTo": 11,
-    "yearContributions": 383
+    "yearContributions": 407
   },
   "perYear": {
     "2017": 13,
@@ -20,17 +20,17 @@
     "2023": 96,
     "2024": 77,
     "2025": 104,
-    "2026": 383
+    "2026": 407
   },
   "languages": [
     {
       "name": "Python",
-      "size": 1932902,
+      "size": 3265039,
       "color": "#3572A5"
     },
     {
       "name": "HTML",
-      "size": 1267457,
+      "size": 1279757,
       "color": "#e34c26"
     },
     {
@@ -39,28 +39,28 @@
       "color": "#3178c6"
     },
     {
+      "name": "JavaScript",
+      "size": 783824,
+      "color": "#f1e05a"
+    },
+    {
       "name": "Java",
       "size": 618107,
       "color": "#b07219"
     },
     {
-      "name": "JavaScript",
-      "size": 576493,
-      "color": "#f1e05a"
-    },
-    {
       "name": "CSS",
-      "size": 243546,
+      "size": 275156,
       "color": "#663399"
     },
     {
       "name": "C#",
-      "size": 182012,
+      "size": 207895,
       "color": "#7355dd"
     },
     {
       "name": "C++",
-      "size": 64806,
+      "size": 89741,
       "color": "#f34b7d"
     },
     {
@@ -70,13 +70,18 @@
     },
     {
       "name": "PowerShell",
-      "size": 22144,
+      "size": 39166,
       "color": "#012456"
     },
     {
       "name": "QML",
       "size": 16369,
       "color": "#44a51c"
+    },
+    {
+      "name": "Shell",
+      "size": 10152,
+      "color": "#89e051"
     },
     {
       "name": "PHP",
@@ -89,9 +94,9 @@
       "color": "#555555"
     },
     {
-      "name": "Shell",
-      "size": 3477,
-      "color": "#89e051"
+      "name": "Dockerfile",
+      "size": 6672,
+      "color": "#384d54"
     },
     {
       "name": "CMake",
@@ -99,14 +104,14 @@
       "color": "#DA3434"
     },
     {
-      "name": "Dockerfile",
-      "size": 1943,
-      "color": "#384d54"
-    },
-    {
       "name": "Standard ML",
       "size": 432,
       "color": "#dc566d"
+    },
+    {
+      "name": "Batchfile",
+      "size": 110,
+      "color": "#C1F12E"
     }
   ],
   "pinned": [
