@@ -19,7 +19,7 @@
 Small storefronts and useful tools, each with a place on the web.
 
 <p align="center">
-  <a href="https://artursafonov.store/dayvolt/"><img src="./assets/site-dayvolt.svg" alt="DayVolt: Rozetka, Prom, Epicentr and Allo, connected through one storefront hub." width="100%" /></a>
+  <a href="https://marketplaces.dayvolt.com.ua/"><img src="./assets/site-dayvolt.svg" alt="DayVolt: Rozetka, Prom, Epicentr and Allo, connected through one storefront hub." width="100%" /></a>
 </p>
 
 <p align="center">
