@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "login": "artur-safonov",
   "totals": {
-    "commits": 613,
-    "pullRequests": 55,
+    "commits": 639,
+    "pullRequests": 62,
     "issues": 11,
-    "contributions": 807,
-    "ownRepos": 73,
+    "contributions": 841,
+    "ownRepos": 74,
     "contributedTo": 12,
-    "yearContributions": 415
+    "yearContributions": 449
   },
   "perYear": {
     "2017": 13,
@@ -20,17 +20,17 @@
     "2023": 96,
     "2024": 77,
     "2025": 104,
-    "2026": 415
+    "2026": 449
   },
   "languages": [
     {
       "name": "Python",
-      "size": 3265039,
+      "size": 3541078,
       "color": "#3572A5"
     },
     {
       "name": "HTML",
-      "size": 1279757,
+      "size": 1279758,
       "color": "#e34c26"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "name": "JavaScript",
-      "size": 783824,
+      "size": 803652,
       "color": "#f1e05a"
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "name": "PowerShell",
-      "size": 39166,
+      "size": 40663,
       "color": "#012456"
     },
     {
