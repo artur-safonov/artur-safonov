@@ -1,32 +1,14 @@
 // Generates profile SVGs from data/stats.json.
 // Refresh data with: node scripts/generate.mjs --fetch  (requires an authenticated gh CLI)
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { execFileSync } from 'node:child_process';
+import { fetchProfileStats } from './stats-fetch.mjs';
 
 const root = new URL('..', import.meta.url);
 const dataPath = new URL('data/stats.json', root);
 let data = JSON.parse(readFileSync(dataPath, 'utf8'));
 
-const gql = (query) => JSON.parse(execFileSync('gh', ['api', 'graphql', '-f', 'query=' + query], { encoding: 'utf8', maxBuffer: 64 << 20 })).data.viewer;
-
 if (process.argv.includes('--fetch')) {
-  const me = gql('query{viewer{id createdAt pullRequests{totalCount} issues{totalCount} contributionsCollection{contributionYears}}}');
-  const yearsQ = me.contributionsCollection.contributionYears.map(y => 'y' + y + ':contributionsCollection(from:"' + y + '-01-01T00:00:00Z",to:"' + y + '-12-31T23:59:59Z"){contributionCalendar{totalContributions}}').join(' ');
-  const yrs = gql('query{viewer{' + yearsQ + '}}');
-  const hist = 'defaultBranchRef{target{... on Commit{history(author:{id:"' + me.id + '"}){totalCount}}}}';
-  const r = gql('query{viewer{repositories(first:100,ownerAffiliations:[OWNER,COLLABORATOR,ORGANIZATION_MEMBER]){nodes{nameWithOwner owner{login} isFork ' + hist + ' languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name color}}}}} repositoriesContributedTo(first:100,includeUserRepositories:false,contributionTypes:[COMMIT,PULL_REQUEST,ISSUE,REPOSITORY]){nodes{nameWithOwner ' + hist + '}}}}');
-  const commits = new Map();
-  for (const n of [...r.repositories.nodes, ...r.repositoriesContributedTo.nodes]) commits.set(n.nameWithOwner, n.defaultBranchRef?.target?.history?.totalCount || 0);
-  const own = r.repositories.nodes.filter(n => n.owner.login === data.login);
-  const others = new Set([...commits.entries()].filter(([k, v]) => !k.startsWith(data.login + '/') && v > 0).map(([k]) => k));
-  const langs = {};
-  for (const n of own) if (!n.isFork) for (const e of n.languages.edges) { langs[e.node.name] ??= { size: 0, color: e.node.color }; langs[e.node.name].size += e.size; }
-  const perYear = Object.fromEntries(Object.entries(yrs).map(([k, v]) => [k.slice(1), v.contributionCalendar.totalContributions]).sort());
-  const thisYear = String(new Date().getFullYear());
-  data = { ...data, generatedAt: new Date().toISOString().slice(0, 10),
-    totals: { commits: [...commits.values()].reduce((a, b) => a + b, 0), pullRequests: me.pullRequests.totalCount, issues: me.issues.totalCount,
-      contributions: Object.values(perYear).reduce((a, b) => a + b, 0), ownRepos: own.length, contributedTo: others.size, yearContributions: perYear[thisYear] || 0 },
-    perYear, languages: Object.entries(langs).sort((a, b) => b[1].size - a[1].size).map(([name, v]) => ({ name, ...v })) };
+  data = await fetchProfileStats(data);
   const previous = JSON.parse(readFileSync(dataPath, 'utf8'));
   const same = JSON.stringify(previous.totals) === JSON.stringify(data.totals)
     && JSON.stringify(previous.perYear) === JSON.stringify(data.perYear)
