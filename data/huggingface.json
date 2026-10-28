@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "author": "BattleGhost",
   "totals": {
-    "allTime": 60955,
-    "month": 27396,
+    "allTime": 61095,
+    "month": 27429,
     "likes": 7
   },
   "models": [
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
-      "downloads": 24054,
-      "allTime": 56502,
+      "downloads": 24068,
+      "allTime": 56623,
       "likes": 7,
       "pipeline": "text-generation",
       "library": "llama.cpp",
@@ -37,8 +37,8 @@
     {
       "id": "BattleGhost/MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
       "name": "MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
-      "downloads": 3244,
-      "allTime": 3244,
+      "downloads": 3263,
+      "allTime": 3263,
       "likes": 0,
       "pipeline": "",
       "library": "",
