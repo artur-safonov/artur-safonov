@@ -2,14 +2,14 @@
   "version": 1,
   "start": "2026-09-29",
   "end": "2026-10-28",
-  "usageTimestamp": "2026-10-28T00:06:46.753718+00:00",
+  "usageTimestamp": "2026-10-28T02:06:47.068129+00:00",
   "usageOk": true,
   "totals": {
-    "input": 4097680399,
-    "output": 10805632,
-    "calls": 21154
+    "input": 4150899349,
+    "output": 11038701,
+    "calls": 21439
   },
-  "activeDays": 26,
+  "activeDays": 27,
   "calendar": [
     {
       "day": "2026-05-04",
@@ -721,23 +721,23 @@
     },
     {
       "day": "2026-10-28",
-      "calls": 0
+      "calls": 285
     }
   ],
   "quotas": {
     "Codex": {
-      "used": 98,
-      "timestamp": "2026-10-27T21:18:49.408055+00:00",
+      "used": 99,
+      "timestamp": "2026-10-28T01:20:53.897965+00:00",
       "ok": true
     },
     "Claude": {
-      "used": 66,
-      "timestamp": "2026-10-27T21:18:48.590723+00:00",
+      "used": 70,
+      "timestamp": "2026-10-28T01:20:52.811218+00:00",
       "ok": true
     },
     "Grok": {
       "used": 100,
-      "timestamp": "2026-10-28T00:06:45.487000+00:00",
+      "timestamp": "2026-10-28T02:06:45.851000+00:00",
       "ok": true
     }
   }
