@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "author": "BattleGhost",
   "totals": {
-    "allTime": 71984,
-    "month": 29122,
+    "allTime": 72022,
+    "month": 29063,
     "likes": 7
   },
   "models": [
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
-      "downloads": 25640,
-      "allTime": 67362,
+      "downloads": 25578,
+      "allTime": 67397,
       "likes": 7,
       "pipeline": "text-generation",
       "library": "llama.cpp",
@@ -37,8 +37,8 @@
     {
       "id": "BattleGhost/MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
       "name": "MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
-      "downloads": 3348,
-      "allTime": 3348,
+      "downloads": 3350,
+      "allTime": 3350,
       "likes": 0,
       "pipeline": "",
       "library": "",
@@ -91,8 +91,8 @@
     {
       "id": "BattleGhost/anime-quartet-preference-ranker",
       "name": "anime-quartet-preference-ranker",
-      "downloads": 43,
-      "allTime": 43,
+      "downloads": 44,
+      "allTime": 44,
       "likes": 0,
       "pipeline": "image-classification",
       "library": "pytorch",
