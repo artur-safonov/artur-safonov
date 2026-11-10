@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "author": "BattleGhost",
   "totals": {
-    "allTime": 72196,
-    "month": 29164,
+    "allTime": 72284,
+    "month": 29192,
     "likes": 7
   },
   "models": [
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-IQ2_XXS-GGUF",
-      "downloads": 25648,
-      "allTime": 67534,
+      "downloads": 25657,
+      "allTime": 67602,
       "likes": 7,
       "pipeline": "text-generation",
       "library": "llama.cpp",
@@ -37,8 +37,8 @@
     {
       "id": "BattleGhost/MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
       "name": "MiMo-V2.6-Flash-RL-UNCENSORED-IQ2S-Down-GGUF",
-      "downloads": 3383,
-      "allTime": 3383,
+      "downloads": 3398,
+      "allTime": 3398,
       "likes": 0,
       "pipeline": "",
       "library": "",
@@ -65,8 +65,8 @@
     {
       "id": "BattleGhost/Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
       "name": "Qwen3.8-Flash-Next-UNCENSORED-BF16-GGUF",
-      "downloads": 88,
-      "allTime": 1234,
+      "downloads": 90,
+      "allTime": 1237,
       "likes": 0,
       "pipeline": "text-generation",
       "library": "llama.cpp",
@@ -91,8 +91,8 @@
     {
       "id": "BattleGhost/anime-quartet-preference-ranker",
       "name": "anime-quartet-preference-ranker",
-      "downloads": 45,
-      "allTime": 45,
+      "downloads": 47,
+      "allTime": 47,
       "likes": 0,
       "pipeline": "image-classification",
       "library": "pytorch",
