@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-15",
   "login": "artur-safonov",
   "totals": {
-    "commits": 757,
+    "commits": 779,
     "pullRequests": 92,
     "issues": 11,
-    "contributions": 988,
-    "ownRepos": 75,
+    "contributions": 1011,
+    "ownRepos": 76,
     "contributedTo": 13,
-    "yearContributions": 596
+    "yearContributions": 619
   },
   "perYear": {
     "2017": 13,
@@ -20,17 +20,17 @@
     "2023": 96,
     "2024": 77,
     "2025": 104,
-    "2026": 596
+    "2026": 619
   },
   "languages": [
     {
       "name": "Python",
-      "size": 3756673,
+      "size": 4091500,
       "color": "#3572A5"
     },
     {
       "name": "HTML",
-      "size": 1690658,
+      "size": 1691633,
       "color": "#e34c26"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "name": "JavaScript",
-      "size": 704846,
+      "size": 782229,
       "color": "#f1e05a"
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "name": "PowerShell",
-      "size": 45971,
+      "size": 52657,
       "color": "#012456"
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "name": "Batchfile",
-      "size": 168,
+      "size": 360,
       "color": "#C1F12E"
     }
   ],
