@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-15",
+  "generatedAt": "2026-11-16",
   "login": "artur-safonov",
   "totals": {
-    "commits": 779,
+    "commits": 827,
     "pullRequests": 92,
     "issues": 11,
-    "contributions": 1011,
+    "contributions": 1059,
     "ownRepos": 76,
     "contributedTo": 13,
-    "yearContributions": 619
+    "yearContributions": 667
   },
   "perYear": {
     "2017": 13,
@@ -20,12 +20,12 @@
     "2023": 96,
     "2024": 77,
     "2025": 104,
-    "2026": 619
+    "2026": 667
   },
   "languages": [
     {
       "name": "Python",
-      "size": 4091500,
+      "size": 4124548,
       "color": "#3572A5"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "name": "JavaScript",
-      "size": 782229,
+      "size": 791357,
       "color": "#f1e05a"
     },
     {
@@ -64,14 +64,14 @@
       "color": "#f34b7d"
     },
     {
+      "name": "Liquid",
+      "size": 78562,
+      "color": "#67b8de"
+    },
+    {
       "name": "PowerShell",
       "size": 52657,
       "color": "#012456"
-    },
-    {
-      "name": "Liquid",
-      "size": 44747,
-      "color": "#67b8de"
     },
     {
       "name": "QML",
