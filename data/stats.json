@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24",
+  "generatedAt": "2026-11-25",
   "login": "artur-safonov",
   "totals": {
-    "commits": 942,
+    "commits": 959,
     "pullRequests": 94,
     "issues": 11,
-    "contributions": 1176,
+    "contributions": 1193,
     "ownRepos": 76,
     "contributedTo": 13,
-    "yearContributions": 784
+    "yearContributions": 801
   },
   "perYear": {
     "2017": 13,
@@ -20,28 +20,28 @@
     "2023": 96,
     "2024": 77,
     "2025": 104,
-    "2026": 784
+    "2026": 801
   },
   "languages": [
     {
       "name": "Python",
-      "size": 4265667,
+      "size": 4307624,
       "color": "#3572A5"
     },
     {
       "name": "HTML",
-      "size": 1691633,
+      "size": 1759901,
       "color": "#e34c26"
+    },
+    {
+      "name": "JavaScript",
+      "size": 1402131,
+      "color": "#f1e05a"
     },
     {
       "name": "TypeScript",
       "size": 962803,
       "color": "#3178c6"
-    },
-    {
-      "name": "JavaScript",
-      "size": 797848,
-      "color": "#f1e05a"
     },
     {
       "name": "Java",
@@ -50,7 +50,7 @@
     },
     {
       "name": "CSS",
-      "size": 275156,
+      "size": 320356,
       "color": "#663399"
     },
     {
